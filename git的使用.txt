@@ -1,0 +1,28 @@
+   history      查看所有使用的命令
+    
+   git clone   url地址             克隆 
+
+
+$ git config --global user.name 'zhongjinqing'
+
+git config --global user.name '675607587@qq.com'
+
+mkdir   text       创建文件夹
+   
+  pwd              查看显示当前文件夹
+  cd  text         进入当前文件夹里面
+
+在文件夹text内初始化目录   
+$ git init     就是创建一个隐藏文件夹 存储本地仓库信息
+
+  /*  向仓库添加文件    将本地文件添加都暂存区域       再提交到仓库中*/
+
+touch a1.php                       向text文件夹中      创建一个文档
+
+git   status                           是查看当前的仓库状态
+
+
+git  add a1.php                    将这个文档添加到暂存区域
+
+
+
